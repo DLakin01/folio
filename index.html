@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="header-bar">
+  <img class="one circle" src="img/prof_pic.jpg">
+  <h1>Daniel Lakin</h1>
+  <h2>Developer, Actor, Dog Lover</h2>
+  <span class="contacticon center">
+  	<a href="mailto:dlakin01@gmail.com"><i class="fa fa-envelope-square"></i></a>
+  	<a href="https://github.com/DLakin01" target="_blank"><i class="fa fa-github-square"></i></a>
+  	<a href="https://www.linkedin.com/in/daniellakin" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+  	<a href="https://twitter.com/ThroughTheSands" target="_blank"><i class="fa fa-twitter-square"></i></a>
+  </span>
+  <br/>
+</div>
+
+
+<ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p>{{ post.description }}</p>
+        <br/>
+        <hr/>
+      </li>
+    {% endfor %}
+</ul>
