@@ -16,11 +16,10 @@ permalink: /portfolio/
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
+
         </span>
         </a>
+        <h1>{{ project.title }}</h1>
     </div>
 </div>
 {% else %}
@@ -34,14 +33,18 @@ permalink: /portfolio/
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
+
         </span>
         </a>
+        <h1>{{ project.title }}</h1>
     </div>
 </div>
 
 {% endif %}
 
 {% endfor %}
+
+<h4 class="post-content">
+See the code for these projects and more on my
+<a href="https://github.com/DLakin01">GitHub.</a>
+</h4>

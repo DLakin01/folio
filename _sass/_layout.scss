@@ -207,10 +207,10 @@ height: 230px;
 overflow: hidden;
 }
 .thumbnail img{
-width: 500px;
-height: auto;
+width: 110%;
+height: 100%;
 position: relative;
-left: -25%;
+//left: -25%;
 top: -5%;
 }
 .thumbnail a{
@@ -224,7 +224,7 @@ display: none;
 position: absolute;
 top: 0;
 left: 0;
-bottom: 0;
+bottom: 10px;
 right: 0;
 background: rgba(0,0,0,0.4);
 color: $grey-color-light;
@@ -247,12 +247,17 @@ overflow: hidden;
 box-sizing:border-box;
 padding: $img_spacing;
 }
+.squish {
+  width: 75% !important;
+  margin-left: 90px;
+}
 .col{
 width: 100%;
 height: 100%;
 float: left;
-object-fit: cover;
+object-fit: scale-down;
 box-sizing:border-box;
+box-shadow: 1px 1px 2px #000;
 padding: $img_spacing;
 }
 .right{
@@ -262,13 +267,13 @@ float: right;
 width:30%;
 }
 .rounded {
-  border-radius: 5%;
+  border-radius: 4%;
 }
 .circle {
   border-radius: 50%;
 }
 .two {
-width: 66.66%;
+width: 50%;
 }
 .three{
 width: 100%;
@@ -279,4 +284,5 @@ color: $caption_color;
 text-align: center;
 vertical-align: middle;
 font-size: $caption_font_size;
+display: block;
 }
