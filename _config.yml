@@ -4,7 +4,7 @@ email: dlakin01@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Developer, Actor, and Dog Lover
 baseurl:  # the subpath of your site, e.g. /blog/
-url:  dlakin01.github.io
+url:  dlakin01.github.io/folio
 twitter_username: twitter_username
 github_username:  DLakin01
 
