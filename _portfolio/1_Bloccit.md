@@ -2,7 +2,7 @@
 layout: post
 title: Bloccit
 description:
-img: /img/mic_crop.jpeg
+image: /images/mic_crop.jpeg
 
 ---
 
