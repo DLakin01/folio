@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 
-<img class="col one right rounded" src="/img/bluester.jpg">
+<img class="col one right rounded" src="folio/img/bluester.jpg">
 
 <br/>
 Daniel Lakin is a hardworking and passionate test-first web developer who appreciates and works toward that wonderful feeling when a piece of code clicks into place, and something starts working. He's all about building new features, getting to done, and shipping products.

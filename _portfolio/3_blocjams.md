@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Bloc Jams
-description:
-img: /img/bloc_jams_bg.jpg
+img: /img/bloc_jams_bg.jpeg
 ---
 
 _Technologies used: AngularJS, CSS3, JavaScript, jQuery, Buzz, and others_
