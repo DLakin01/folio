@@ -1,7 +1,7 @@
 ---
 layout: page
 title: about
-permalink: /about/
+permalink: about/
 ---
 
 <img class="col one right rounded" src="../images/bluester.jpeg">
