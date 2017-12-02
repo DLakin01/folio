@@ -15,7 +15,7 @@ Bloccit, a Reddit clone, is my latest project. It's built on top of the Rails fr
 Building Bloccit has been an exciting journey, as I've discovered just how powerful Ruby on Rails is. The sheer number of helper functions, the power of the ActiveRecord ORM library, the simplicity of resourceful routes all help make it easier to focus on higher-level functionality, making Bloccit my most sophisticated and robust app yet.
 
 <div class="img_row">
-  <img class="col three" src="{{ site.baseurl }}/img/bloccit_pic.jpeg">
+  <img class="col three" src="../images/bloccit_pic.jpeg">
 </div>  
 
 Bloccit will continue to grow and improve as I learn more about Rails and the many tools that the framework enables. You can check out the latest version [here.](https://peaceful-plains-45961.herokuapp.com/)
