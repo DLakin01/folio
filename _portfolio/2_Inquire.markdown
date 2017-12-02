@@ -2,7 +2,7 @@
 layout: post
 title: Inquire Chat
 description:
-image: /images/InquireLogo.png
+image: ../images/InquireLogo.png
 
 ---
 _Technologies used: AngularJS, Firebase, Git, Bootstrap, others_
