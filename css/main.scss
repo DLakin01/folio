@@ -38,26 +38,21 @@ $on-laptop:        800px;
         @content;
     }
 
-    /* Medium and small screens (640px) */
-        @media (min-width: 680px) {
+    @media only screen
+      and (min-device-width: 375px)
+      and (max-device-width: 667px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
 
-            .column {
-                float: left;
-                padding-left: 1rem;
-                padding-right: 1rem;
-            }
-
-            .column.full { width: 100%; }
-            .column.two-thirds { width: 66.7%; }
-            .column.half { width: 50%; }
-            .column.third { width: 33.3%; }
-            .column.fourth { width: 25%; }
-            .column.flow-opposite { float: right; }
-        }
-
-      /* Large screens (1024px) */
-        @media (min-width: 64rem) {
-            html { font-size: 120%; }
+        .project {
+          width: 70%;
+          height: auto;
+          float: none;
+          margin: 0 auto;
+          vertical-align: middle;
+          box-sizing: border-box;
+          padding: 10px;
+          border-radius: 4%;
         }
 
     }
