@@ -37,7 +37,30 @@ $on-laptop:        800px;
     @media screen and (max-width: $device) {
         @content;
     }
-}
+
+    /* Medium and small screens (640px) */
+        @media (min-width: 680px) {
+
+            .column {
+                float: left;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+
+            .column.full { width: 100%; }
+            .column.two-thirds { width: 66.7%; }
+            .column.half { width: 50%; }
+            .column.third { width: 33.3%; }
+            .column.fourth { width: 25%; }
+            .column.flow-opposite { float: right; }
+        }
+
+      /* Large screens (1024px) */
+        @media (min-width: 64rem) {
+            html { font-size: 120%; }
+        }
+
+    }
 
 
 

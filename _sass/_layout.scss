@@ -200,6 +200,7 @@ float: left;
 vertical-align: middle;
 box-sizing: border-box;
 padding: 10px;
+border-radius: 4%;
 }
 .thumbnail{
 width: 100%;
@@ -285,4 +286,23 @@ text-align: center;
 vertical-align: middle;
 font-size: $caption_font_size;
 display: block;
+}
+
+/* iPhone 6, 6s, 7, and 8 - Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .project {
+      width: 70%;
+      height: auto;
+      float: none;
+      margin: 0 auto;
+      vertical-align: middle;
+      box-sizing: border-box;
+      padding: 10px;
+      border-radius: 4%;
+    }
 }
