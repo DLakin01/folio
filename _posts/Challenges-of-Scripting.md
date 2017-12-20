@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Challenges of Scripting
+date: September 2, 2017
 ---
 
 The biggest challenge I’ve faced in learning to develop my own code and web applications is keeping the order of events, function calls, and code blocks straight in my head. As someone coming from a largely academic/literary background, I’m used to ideas and text flowing straight down the page, from top to bottom. To be sure, some tools for web development, like HTML and CSS, function in similar ways, but when it came to learning my first bits of JavaScript I was very much thrown for a loop (sorry for the terrible pun).

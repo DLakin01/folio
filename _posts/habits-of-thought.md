@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Habits of thought
+date: August 31, 2017
 
 ---
 
