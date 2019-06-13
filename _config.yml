@@ -23,4 +23,4 @@ plugins: [jekyll-paginate]
 collections:
   portfolio:
     output: true
-    permalink: /portfolio/:path/
+    permalink: /projects/:path/
