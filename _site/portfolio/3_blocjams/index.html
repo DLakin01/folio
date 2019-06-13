@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Bloc Jams</title>
+    <meta name="description" content="Developer, Actor, and Dog Lover
+">
+
+    <link rel="stylesheet" href="/folio/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/folio/portfolio/3_blocjams/">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        <!-- Daniel Lakin instead of blog -->
+        <a class="page-link" href="/folio/">blog</a>
+
+        
+          
+          <a class="page-link" href="/folio/about/">about</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/folio/portfolio/">portfolio</a>
+          
+        
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Bloc Jams</h1>
+    <p class="post-meta">December 4, 2017 — 07:20</p>
+  </header>
+
+  <article class="post-content">
+    <p><em>Technologies used: AngularJS, CSS3, JavaScript, jQuery, Buzz, and others</em></p>
+
+<p><strong>About the Project</strong></p>
+
+<p>Bloc Jams is a compact, light-weight music player built in Angular, using jQuery, vanilla JavaScript, and several outside libraries to offer fun listening experience to users. This project featured my first in-depth use of the Angular framework, which I immediately took to. I had an intuitive feel for the modularity and elegance of the Model-View-Controller framework, and used that to break out the functions of a music player across the breadth of an Angular app.</p>
+
+<div class="img_row squish">
+  <img class="col three" src="/folio/images/blocjams_example.jpeg" />
+</div>
+
+<p>In building Bloc Jams, I did hit some stumbling blocks. In particular, for a time the various links on the Collection Page all pointed to the same place, even if they referred to different albums. I got around that issue by making use of URL queries and the QueryData library. By inserting readable information into the URLs of the various links, I was able to use the QueryData information to tell the rest of the code which album to load. Some of the relevant code is on display below:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">albumPicker</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">queryData</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">QueryData</span><span class="p">;</span>
+  <span class="k">if</span><span class="p">(</span><span class="nx">queryData</span><span class="p">.</span><span class="nx">albumID</span> <span class="o">===</span> <span class="s1">'1'</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">setCurrentAlbum</span><span class="p">(</span><span class="nx">albumBonIver</span><span class="p">);</span>
+  <span class="p">}</span>
+  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">queryData</span><span class="p">.</span><span class="nx">albumID</span> <span class="o">===</span> <span class="s1">'2'</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">setCurrentAlbum</span><span class="p">(</span><span class="nx">albumFooFighters</span><span class="p">);</span>
+  <span class="p">}</span>
+  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">queryData</span><span class="p">.</span><span class="nx">albumID</span> <span class="o">===</span> <span class="s1">'3'</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">setCurrentAlbum</span><span class="p">(</span><span class="nx">albumSufjan</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">};</span></code></pre></figure>
+
+<p>You can check out Bloc Jams and listen to some good tunes <a href="https://bloc-jammr.herokuapp.com">here.</a> Happy listening!</p>
+
+<p><a href="https://github.com/dlakin01/bloc-jams-angularjs">GitHub repo</a></p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+  	<p>This site was built using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and is hosted on <a href="https://github.com" target="_blank">Github</a></p>
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
