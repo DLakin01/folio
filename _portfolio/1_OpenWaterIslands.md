@@ -1,11 +1,11 @@
 ---
 layout: post
-title: OpenWater Islands Integration Hub
+title: Islands Integration Hub
 description:
 image: ../images/AzureFunctionsLogo.png
 ---
 
-_Technologies used: C#, JSON, XML, ASP.NET, Azure Functions, Razor Engine, Visual Studio, REST and SOAP APIs, and others_
+___Technologies used: C#, JSON, XML, ASP.NET, Azure Functions, Razor Engine, Visual Studio, REST and SOAP APIs, and others___
 
 In my most recent position at OpenWater, Inc. I helped build out a huge hub for integrations of all kinds, called the Islands. The Islands are composed of dozens of serverless Azure Functions, designed to scale with user demand. Each Function fulfills a different customer need, including but not limited to:
 
@@ -17,7 +17,7 @@ In my most recent position at OpenWater, Inc. I helped build out a huge hub for 
 * Complex custom reports
 * Custom HTML pages generated with Razor Engine
 
-<a href="https://github.com/DLakin01/OpenWaterSampleCode/blob/master/FirstSecondThirdTeamsReportUtility.cs">Example Code</a>
+<a href="https://github.com/DLakin01/OpenWaterSampleCode/blob/master/FirstSecondThirdTeamsReportUtility.cs" target="_blank">Example Code</a>
 
 _The above code is a reusable library for a highly complex report I built for my customer, the College Sports Information Directors Association_
 

@@ -5,7 +5,7 @@ description:
 image: ../images/InquireLogo.png
 
 ---
-_Technologies used: AngularJS, Firebase, Git, Bootstrap, others_
+___Technologies used: AngularJS, Firebase, Git, Bootstrap, others___
 
 **About the Project**
 

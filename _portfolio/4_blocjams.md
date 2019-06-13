@@ -4,7 +4,7 @@ title: Bloc Jams
 image: ../images/bloc_jams_bg.jpeg
 ---
 
-_Technologies used: AngularJS, CSS3, JavaScript, jQuery, Buzz, and others_
+___Technologies used: AngularJS, CSS3, JavaScript, jQuery, Buzz, and others___
 
 **About the Project**
 

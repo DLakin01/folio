@@ -6,7 +6,7 @@ image: ../images/mic_crop.jpeg
 
 ---
 
-_Technologies used: Ruby on Rails, RSpec, Postgres, ActiveRecord, Sass, and others_
+___Technologies used: Ruby on Rails, RSpec, Postgres, ActiveRecord, Sass, and others___
 
 **About the Project**
 
