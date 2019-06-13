@@ -10,8 +10,7 @@ permalink: about/
 Daniel Lakin is a hardworking and passionate test-first web developer who appreciates and works toward that wonderful feeling when a piece of code clicks into place, and something starts working. He's all about building new features, getting to done, and shipping products.
 
 <p>He’s worked up and down the Microsoft stack and has leveraged both REST and SOAP APIs to build out integrations hubs hosted in Heroku and Azure Functions, interfacing with platforms like Salesforce, netFORUM, iMIS, Personify, Google, Azure Active Directory, and more. He is equally comfortable working on the front end, and has actively contributed to the look and feel of an enterprise-level SaaS platform using HTML5, CSS3, JavaScript, and jQuery. Other skills include:</p>
-<br>
-<ul>
+<ul class="doubleColumn">
   <li>C#</li>
   <li>.NET (.NET Core, .NET Standard, ASP.NET)</li>
   <li>Razor Engine</li>

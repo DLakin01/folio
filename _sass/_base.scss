@@ -55,7 +55,11 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
+ul.doubleColumn {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
