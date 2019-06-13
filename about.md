@@ -35,7 +35,6 @@ Daniel Lakin is a hardworking and passionate test-first web developer who apprec
   <li>Boostrap</li>
   <li>Salesforce</li>
 </ul>
-<br>
 
 He's always looking for a new challenge, and current focuses include:
 <br>
