@@ -17,6 +17,10 @@ In my most recent position at OpenWater, Inc. I helped build out a huge hub for 
 * Complex custom reports
 * Custom HTML pages generated with Razor Engine
 
+<a href="https://github.com/DLakin01/OpenWaterSampleCode/blob/master/FirstSecondThirdTeamsReportUtility.cs">Example Code</a>
+
+_The above code is a reusable library for a highly complex report I built for my customer, the College Sports Information Directors Association_
+
 In my work with the Islands, I regularly generated and consumed data and code in C#, Python, JavaScript, jQuery, JSON, XML, and SAML. My customers used a wide variety of platforms that I learned to integrate and communicate with, including:
 
 * Salesforce
