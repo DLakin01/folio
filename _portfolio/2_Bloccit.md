@@ -10,7 +10,7 @@ _Technologies used: Ruby on Rails, RSpec, Postgres, ActiveRecord, Sass, and othe
 
 **About the Project**
 
-Bloccit, a Reddit clone, is my latest project. It's built on top of the Rails framework and uses a Heroku-hosted Postgres database to store, index, and serve up topics, posts, and comments. Every component was built test-first, on a "Red, Green, Refactor" cycle, ensuring that my code not only works, but stays DRY and doesn't have any unfortunate "code smell."
+Bloccit, a Reddit clone, is built on top of the Rails framework and uses a Heroku-hosted Postgres database to store, index, and serve up topics, posts, and comments. Every component was built test-first, on a "Red, Green, Refactor" cycle, ensuring that my code not only works, but stays DRY and doesn't have any unfortunate code smell.
 
 Building Bloccit has been an exciting journey, as I've discovered just how powerful Ruby on Rails is. The sheer number of helper functions, the power of the ActiveRecord ORM library, the simplicity of resourceful routes all help make it easier to focus on higher-level functionality, making Bloccit my most sophisticated and robust app yet.
 
